@@ -1,0 +1,42 @@
+# =====================================================================
+# .gitignore - STM32CubeIDE & LTspice Digitally Controlled Power Supply
+# =====================================================================
+
+# Build artifacts & compiled binaries
+Debug/
+Release/
+[Bb]uild/
+*.o
+*.obj
+*.d
+*.su
+*.cyclo
+*.elf
+*.bin
+*.hex
+*.map
+
+# Eclipse / STM32CubeIDE workspace & metadata
+.metadata/
+.settings/
+
+# LTspice simulation waveform outputs and logs
+*.raw
+*.op.raw
+*.log
+*.log.raw
+*.net
+*.fft
+
+# OS files
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+.DS_Store
+
+# Editor backups & temporary files
+*.tmp
+*~
+*.bak
+*.swp
+*.swo
